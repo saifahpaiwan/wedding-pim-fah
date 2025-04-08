@@ -37,14 +37,14 @@ export default function Home() {
 
   return (
     <div>
-      <section className="bg-cover bg-center bg-no-repeat bg-[url('/images/7Zbn4pp2.jpeg')]">
+      <section className="bg-cover bg-right bg-no-repeat bg-[url('/images/7Zbn4pp2.jpeg')]">
         <div className="px-4 mx-auto max-w-screen-xl text-center py-5 lg:py-20">
           <Image
             src={"/images/logo-web.png"}
             alt="Logo"
             width={100}
             height={100}
-            className="mb-8 w-30 h-30 mx-auto"
+            className="mb-9 w-25 h-25 mx-auto"
           />
           <h4 className="mb-4 text-4xl playball-regular-font-stroke tracking-tight leading-none text-white md:text-5xl lg:text-6xl">Sasithron & Saifah</h4>
           <Image
@@ -70,24 +70,38 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <section className={`relative overflow-hidden pt-20 py-5 lg:py-20`}>
+      <section className={`relative overflow-hidden py-5 lg:py-10`}>
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 text-center ">
-          <ul className="flex items-center justify-center mt-3 text-sm font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
+          <ul className="flex items-center justify-center mt-3 font-medium text-gray-500 dark:text-gray-400 sm:mt-0">
             <li className="mr-4">
-              <div className="text-lg font-md text-start">นางพัลลภา แย้มแสง</div>
-              <div className="text-lg font-md text-start">ว่าที่ร้อยตรี สมนึก กลับหอม</div>
+              <div className="md:text-1xl lg:text-2xl text-start">นางพัลลภา แย้มแสง</div>
+              <div className="md:text-1xl lg:text-2xl text-start">ว่าที่ร้อยตรี สมนึก กลับหอม</div>
             </li>
             <li className="mr-4 text-center"> และ </li>
             <li className="mr-4">
-              <div className="text-lg font-md text-start">นางสุกันยา ไพรวรรณ์</div>
+              <div className="md:text-1xl lg:text-2xl text-start">นางสุกันยา ไพรวรรณ์</div>
             </li>
           </ul>
-          <div className="text-lg font-md text-center mt-4 mb-8">
+          <div className="text-sm text-center mt-4 mb-8">
             มีความยินดีขอเชิญท่านเพื่อเป็นเกียรติ และร่วมรับประท่านอาหารเนื่องในงานพิธีมงคลสม ระหว่าง
           </div>
-          <div className="mb-2 text-4xl md:text-5xl lg:text-6xl">นางสาวศศิธร กลับหอม (พิม)</div>
-          <div className="mb-2 text-4xl md:text-5xl lg:text-6xl">และ</div>
-          <div className="mb-2 text-4xl md:text-5xl lg:text-6xl">นายสายฟ้า ไพรวรรณ์ (ฟ้า)</div>
+          <div className="flex items-center justify-center p-5 bg-stone-500">
+          <Image
+            src={"/images/-m6ausI8.jpeg"}
+            alt="Logo"
+            width={100}
+            height={100}
+            className="w-1/2 h-auto mx-auto sm:w-50 md:w-1/3 lg:w-1/3"
+          />
+          <div className="text-2xl text-center playball-regular-font-stroke p-1">&</div>
+          <Image
+            src={"/images/tJUjwC-t.jpeg"}
+            alt="Logo"
+            width={100}
+            height={100}
+            className="w-1/2 h-auto mx-auto sm:w-50 md:w-1/3 lg:w-1/3"
+          />
+          </div>
         </div>
       </section>
     </div>
