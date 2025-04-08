@@ -1,0 +1,33 @@
+@import "tailwindcss"; 
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+ 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.playball-regular-font-stroke {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal; 
+  color: #fefaf8;
+  /* -webkit-text-stroke: 0.25px #fdfbf8; */
+}
+
+.coming-soon {
+  background: #0000005e;
+    display: inline-block;
+    padding: 0.5rem 2rem;
+    border-radius: 10px;
+}
