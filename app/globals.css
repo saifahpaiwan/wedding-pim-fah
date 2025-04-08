@@ -14,7 +14,7 @@
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: "Kanit", sans-serif;
+  font-family: "Sriracha", cursive;
 }
 
 .playball-regular-font {
@@ -22,12 +22,19 @@ body {
   font-weight: 400;
   font-style: normal; 
 }
+
 .playball-regular-font-stroke {
   font-family: "Playball", cursive;
   font-weight: 400;
   font-style: normal; 
   color: #fefaf8;
   /* -webkit-text-stroke: 0.25px #fdfbf8; */
+}
+
+.playball-regular-font {
+  font-family: "Playball", cursive;
+  font-weight: 400;
+  font-style: normal;  
 }
 
 .coming-soon {
