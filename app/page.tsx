@@ -399,29 +399,24 @@ export default function Home() {
         <div className="grid max-w-screen-xl px-4 py-8 mx-auto lg:gap-8 xl:gap-0 lg:py-16 lg:grid-cols-12">
           <div className="mr-auto place-self-center lg:col-span-7">
             <h1 className="max-w-2xl mb-4 text-4xl font-extrabold tracking-tight leading-none md:text-5xl xl:text-6xl dark:text-white">
-              Payments tool for software companies
+              ขอขอบคุณจากใจจริง
             </h1>
             <p className="max-w-2xl mb-6 font-light text-gray-500 lg:mb-8 md:text-lg lg:text-xl dark:text-gray-400">
-              From checkout to global sales tax compliance, companies around the
-              world use Flowbite to simplify their payment stack.
+              สำหรับความรักและการสนับสนุนที่ท่านได้มอบให้ในวันสำคัญของเรา
+              ขอขอบคุณทุกท่านที่มาร่วมเป็นส่วนหนึ่งในความสุขครั้งนี้
+              ขอบคุณสำหรับการแสดงความยินดี
+              และการร่วมเฉลิมฉลองในวันแห่งความรักของเรา
+              ขอให้ทุกท่านมีความสุขและประสบความสำเร็จในทุกๆ เรื่องค่ะ/ครับ
             </p>
           </div>
           <div className="lg:mt-0 lg:col-span-5 lg:flex">
-            <div className="relative w-full h-screen">
-              {/* Background Video */}
-              <video
-                className="absolute top-0 left-0 w-full h-full object-cover"
-                autoPlay
-                loop
-                muted
-              >
-                <source
-                  src={`2fc4b419-9d42-45c0-832c-6718f28251a1.mp4`}
-                  type="video/mp4"
-                />
-                Your browser does not support the video tag.
-              </video>
-            </div>
+            <video
+              src={`4c3e97f0-8ffb-4b7e-ae7b-c443670ee64c.mp4`}
+              autoPlay
+              loop
+              playsInline
+              muted
+            />
           </div>
         </div>
       </section>
