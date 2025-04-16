@@ -48,14 +48,14 @@ export default function Home() {
     <div>
       <section className="h-screen bg-cover bg-center md:bg-right bg-no-repeat bg-custom-gradient">
         <div className="mx-auto max-w-screen-xl text-center py-5 lg:py-20">
-          <div className="h-screen flex flex-col justify-end">
-            <div className="relative left-0 -top-16">
+          <div className="h-screen flex flex-col justify-end md:justify-center">
+            <div className="relative left-0 -top-5">
               <Image
                 src={"/images/logo-web.png"}
                 alt="Logo"
                 width={100}
                 height={100}
-                className="my-[20px] md:my-[0px] lg:my-[0px] w-25 h-25 mx-auto"
+                className="w-[70px] h-[70px] md:w-[120px] md:h-[120px] mx-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
               />
@@ -71,7 +71,7 @@ export default function Home() {
                 alt="Logo"
                 width={100}
                 height={100}
-                className="mb-2 w-15 h-15 mx-auto"
+                className="mb-2 w-[35px] h-[35px] mx-auto"
                 data-aos="fade-right"
                 data-aos-duration="1000"
               />
